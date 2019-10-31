@@ -119,9 +119,9 @@ textarea {
       line-height: 120px
     }
     #masthead {
-      height: 78px;
+      height: 300px;
       background-size: cover;
-      background: url(../img/background.jpg) no-repeat;
+      background: url(../img/cross.jpg) no-repeat;
       background-position-y: center;
     }
     #main_menu menu {
