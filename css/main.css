@@ -97,69 +97,85 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    #wrapper {
-      width: 960px;
-      border: black thin;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 18px;
-      line-height: 30px;
-      font-family: SansSerif, "Helvetica Neue", Helvetica;
-    }
-    #logo img {
-      height: 116px;
+#wrapper {
+  width: 960px;
+  font-size: 19px;
+  line-height: 32px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 
-    }
-    #article_text {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    #top {
-      height: 120px;
-      line-height: 120px
-    }
-    #masthead {
-      height: 300px;
-      background-size: cover;
-      background: url(../img/cross.jpg) no-repeat;
-      background-position-y: center;
-    }
-    #main_menu menu {
-      padding: 0px;
-      margin: 0px;
-      text-align: right;
-    }
-    #sidebar img {
-      padding: 20px;
-    }
-    #sidebar_image {
-      margin-right: auto;
-      margin-left: auto;
-      width: 320px;
-    }
-    #footer {
-      height: 120px;
-    }
-    .centerText {
-      text-align: center;
-    }
-    .floatLeft {
-      float: left;
-    }
-    .grBig {
-      width: 593px;
-    }
-    .grSmall {
-      width: 367px;
-    }
-    .clear {
-      clear: both;
-    }
-    #main_menu li  {
-      display: inline;
-      margin: 0px 0px 0px 30px;
+}
+#menu {
+  height: 120px;
+  line-height: 120px;
+}
+.margin_left_right_auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.gr_width_large {
+  width: 593px;
+}
+.gr_width_small {
+  width: 367px;
+}
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+.clear_float {
+  clear: both;
+}
+.reset_margin_padding {
+  margin: 0px;
+  padding: 0px;
+}
 
-    }
+#masthead_landing {
+  height: 367px;
+  background-image: url("../img/cross.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  clear: both;
+}
+#hero_div {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+#masthead {
+  height: 74px;
+  background-image: url("../img/cross.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 45px;
+  margin-top: 45px;
+
+}
+#menu li {
+  display: inline;
+}
+#side_photo {
+  width: 320px;
+}
+.text_center {
+  text-align: center;
+}
+.callout {
+  width: 320px;
+  height: 196px;
+}
+
+.position_absolute {
+  position: absolute;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -325,4 +341,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
